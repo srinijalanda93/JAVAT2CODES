@@ -91,3 +91,19 @@
     Abstract Method only have the method call/not the method definition</p>
 <img width="364" alt="image" src="https://github.com/user-attachments/assets/3c95f415-f75a-481d-88d1-5b25b25a563a">
 
+<h1>LAB-5</h1>
+<h2>INTERFACE CONCEPT (FULLY ABSTARCTION)</h2>
+<p>Interface Creation: The BankInterface declares the methods getBalance and getInterestRate which all banks must implement.
+
+Implementing Classes:
+
+Each bank class stores its balance as a private attribute (encapsulation).
+The getBalance method returns the balance.
+The getInterestRate method returns the fixed interest rate for that bank.
+Object Creation: Objects of BankA, BankB, and BankC are instantiated with their respective deposit amounts. The constructors initialize the balance.
+
+Calling Methods: The methods getBalance and getInterestRate are called on each bank object to retrieve and display the balance and interest rate.
+</p>
+<img width="296" alt="image" src="https://github.com/user-attachments/assets/d8c1c3fc-780c-4273-b6ee-e0b6f86f9246">
+
+
