@@ -57,7 +57,7 @@ class ReferenceBook extends Book {
         this.edition = edition;
     }
 
-    // Method to display additional details
+    // method to display additional details
     public void displayDerivedDetails() {
         super.displayDetails(); // Call parent class method
         System.out.println("The Reference Book Edition: " + this.edition);
