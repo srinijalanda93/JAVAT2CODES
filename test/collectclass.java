@@ -5,7 +5,7 @@ import java.util.*;
 //collections--> class,collection -->interface
 
 public class collectclass {
-    public static void main(String[] args) {
+    public static <compare> void main(String[] args) {
         Collection collections = new ArrayList();
         // int val[]=new int[9];
         // val[1]=1;
@@ -14,7 +14,7 @@ public class collectclass {
          * in java Object are parent all the inbuilt the class are inherited from the
          * object
          */
-        // Object o[]=new Object[9]; //hetergenous ,but still it has fixed size,not
+        // Object o[]=new Object[9]; //heterogeneous ,but still it has fixed size,not
         // aligned with DS
         // int i = 1;
         collections.add(1);
@@ -68,15 +68,32 @@ public class collectclass {
         c.add(27);
         c.forEach(System.out::println);
         // sorting the elements based on the last digits
-        Collections.sort(c);
-        c.forEach(System.out::println);
-        // take the number digit by last
-        Iterator i = c.iterator();
+//        Collections.sort(c);
+//        c.forEach(System.out::println);
+//        // take the number digit by last
+//        Iterator i = c.iterator();
+//
+//        while (i.hasNext()) {
+//      //  int  a=  i.next()%10;
+//            System.out.println(i.next());
+//        }
 
-        while (i.hasNext()) {
-      //  int  a=  i.next()%10;
-            System.out.println(i.next());
-        }
+        /*
+        sort the number using the last digit
+         */
+        //interface called comparator
+        List<String> s=new ArrayList<String>();
+        s.add("java");
+        s.add("String");
+        s.add("Hello");
+        s.add("hola");
+//        Comparator<String> sw=new define();
+//        collections.sort(sw);
+//        for()
+
+
+
+
 
     }
 

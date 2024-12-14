@@ -34,9 +34,9 @@ class CityBlockConservation extends RainySeasonConservation {
                 left++;
             } else {
                 if (blockHeights[right] >= rightMax) {
-                    rightMax = blockHeights[right]; // Update the max height on the right
+                    rightMax = blockHeights[right]; //update the max height on the right
                 } else {
-                    totalWater += rightMax - blockHeights[right]; // Calculate trapped water
+                    totalWater += rightMax - blockHeights[right]; //calculate trapped water
                 }
                 right--;
             }
@@ -52,20 +52,20 @@ public class lab5p2 {
         // Create an instance of CityBlockConservation
         CityBlockConservation conservation = new CityBlockConservation();
 
-        // Test Case 1
+        //  1
         int[] blockHeights1 = {3, 0, 0, 2, 0, 4};
         System.out.println("Trapped Water (Test Case 1): " + conservation.calculateTrappedWater(blockHeights1));
-        // Expected Output: 10
 
-        // Test Case 2
+
+        //  2
         int[] blockHeights2 = {3, 0, 2, 0, 4};
         System.out.println("Trapped Water (Test Case 2): " + conservation.calculateTrappedWater(blockHeights2));
-        // Expected Output: 7
 
-        // Additional Test Case (optional)
+
+        //op
         int[] blockHeights3 = {1, 2, 3, 4, 5};
         System.out.println("Trapped Water (Test Case 3): " + conservation.calculateTrappedWater(blockHeights3));
-        // Expected Output: 0 (No water trapped as the heights are non-decreasing)
+
     }
 }
 

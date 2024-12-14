@@ -23,8 +23,8 @@ import java.util.*;
 //s1:define the Interface
 interface BankInterface {
     //any variable are public static final
-    double getBalance();      // Abstract method to get balance
-    double getInterestRate(); // Abstract method to get interest rate
+    double getBalance();      // abstract method to get balance
+    double getInterestRate(); // abstract method to get interest rate
 }
 
 //s2: Implement the Interface in BankA
@@ -35,7 +35,7 @@ class BankA implements BankInterface {
         this.balance = balance;
     }
 
-    //overriding here which defination the abstract method with body implementatio
+    //overriding here which defination the abstract method with body implementation
     public double getBalance() {
         return balance;
     }
@@ -61,7 +61,7 @@ class BankB implements BankInterface {
 
     @Override
     public double getInterestRate() {
-        return 7.4; // 7.4% interest rate
+        return 7.4;
     }
 }
 
@@ -87,23 +87,23 @@ class BankC implements BankInterface {
 // Step 3: Main Class to Invoke Methods
 public class Lab5Interface {
     public static void main(String[] args) {
-        // Step 4: Create objects of each bank
+        // step4: Create objects of each bank
         BankA bankA = new BankA(10000); //reference variables
         BankB bankB = new BankB(150000);
         BankC bankC = new BankC(200000);
 
-        // Display details for BankA
+        // display details for BankA
         System.out.println("Bank A:");
         System.out.println("Balance: " + bankA.getBalance());
         System.out.println("Interest Rate: " + bankA.getInterestRate() + "%");
 
-        // Display details for BankB
-        System.out.println("\nBank B:");
+        // display details for BankB
+        System.out.println("Bank B:");
         System.out.println("Balance: " + bankB.getBalance());
         System.out.println("Interest Rate: " + bankB.getInterestRate() + "%");
 
-        // Display details for BankC
-        System.out.println("\nBank C:");
+        // display details for BankC
+        System.out.println("Bank C:");
         System.out.println("Balance: " + bankC.getBalance());
         System.out.println("Interest Rate: " + bankC.getInterestRate() + "%");
     }

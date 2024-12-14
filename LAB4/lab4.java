@@ -19,7 +19,7 @@ abstract class Robber{
         System.out.println("I am in confusion in liking Machine Learning");
     }
 }
-class JAVAProfessionalRobber extends Robber{
+class  JAVAProfessionalRobber extends Robber{
     public void RowHouses(int[] arr){
         System.out.print("It's ROWHOUSE Robbers ");
         int even=0,odd=0;
@@ -69,6 +69,7 @@ class JAVAProfessionalRobber extends Robber{
     }
     public void MuliHouseBuilding(){
 System.out.println("Multiple HouseBuilding");
+
     }
 }
 
