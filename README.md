@@ -107,16 +107,16 @@ Calling Methods: The methods getBalance and getInterestRate are called on each b
 <img width="296" alt="image" src="https://github.com/user-attachments/assets/d8c1c3fc-780c-4273-b6ee-e0b6f86f9246">
 <hr>
 
-<h1> Lab -6  Assignment on Thread Concept </h1>
-<h2>Coin combination on dynamic programming or using threading concept</h2>
+<h1><a href="https://github.com/srinijalanda93/JAVAT2CODES/tree/main/LAB6">Lab -6  Assignment on Thread Concept</a> </h1>
+<h2><a href="https://github.com/srinijalanda93/JAVAT2CODES/blob/main/LAB6/CoinCombination.java">Coin combination on dynamic programming or using threading concept</a></h2>
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/5fbc5ae2-59c4-4965-8dcb-7fc1dec9dfaf" />
-<h2>Threading concept and  synchorization concept</h2>
+<h2><a href="https://github.com/srinijalanda93/JAVAT2CODES/blob/main/LAB6/CoffeeShopSimulation.java">Threading concept and  synchorization concept</a></h2>
 <img width="524" alt="image" src="https://github.com/user-attachments/assets/97e25696-009d-42c9-a0ee-acdf09905800" />
 <hr>
 
 
 
-<h1>Lab-7 Using ArrayList,HashMap,Hashset,Tree sort</h1>
+<h1><a href="https://github.com/srinijalanda93/JAVAT2CODES/blob/main/LAB7/AmazonApp.java">Lab-7 Using ArrayList,HashMap,Hashset,Tree sort</a></h1>
 <p>ArrayList: A resizable array in Java that allows duplicate elements and provides indexed access to elements.
 
 HashMap: A data structure that stores key-value pairs, allowing fast retrieval based on the key, and does not guarantee order.
@@ -128,7 +128,7 @@ TreeSet (Tree Sort): A sorted set implementation in Java that stores unique elem
 <hr>
 
 
-<h1>LAB -8 ASSIGNMENT </h1>
+<h1><a href="https://github.com/srinijalanda93/JAVAT2CODES/blob/main/ChristAtAss/src/main/java/Prj/JavPrj.java">LAB -8 ASSIGNMENT</a></h1>
 <p>Using concept on the Servlet used to insert the values in the database</p>
 <img width="336" alt="image" src="https://github.com/user-attachments/assets/7ce0655c-6d35-429d-af7b-ad8de77428f3" />
 
