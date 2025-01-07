@@ -106,4 +106,7 @@ Calling Methods: The methods getBalance and getInterestRate are called on each b
 </p>
 <img width="296" alt="image" src="https://github.com/user-attachments/assets/d8c1c3fc-780c-4273-b6ee-e0b6f86f9246">
 
+<h1>LAB -8 ASSIGNMENT </h1>
+<p>Using concept on the Servlet used to insert the values in the database</p>
+<img width="336" alt="image" src="https://github.com/user-attachments/assets/7ce0655c-6d35-429d-af7b-ad8de77428f3" />
 
