@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Attendee</title>
+</head>
+<body>
+    <h1>Add Attendee</h1>
+    <form action="Attendee" method="POST">
+        <input type="hidden" name="action" value="add">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" name="contactNumber"><br><br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+        <button type="submit">Add Attendee</button>
+    </form>
+</body>
+</html>

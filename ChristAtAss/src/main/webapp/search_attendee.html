@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Attendee</title>
+</head>
+<body>
+    <h1>Search Attendee</h1>
+    <form action="AttendeeServlet" method="POST">
+        <input type="hidden" name="action" value="search">
+        <label for="searchBy">Search By:</label>
+        <select id="searchBy" name="searchBy">
+            <option value="id">ID</option>
+            <option value="name">Name</option>
+            <option value="country">Country</option>
+        </select><br><br>
+        <label for="value">Value:</label>
+        <input type="text" id="value" name="value" required><br><br>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

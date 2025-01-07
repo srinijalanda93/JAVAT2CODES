@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Attendee</title>
+</head>
+<body>
+    <h1>Edit Attendee</h1>
+    <form action="AttendeeServlet" method="POST">
+        <input type="hidden" name="action" value="edit">
+        <label for="attendeeID">Attendee ID:</label>
+        <input type="number" id="attendeeID" name="attendeeID" required><br><br>
+        <label for="email">New Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="contactNumber">New Contact Number:</label>
+        <input type="text" id="contactNumber" name="contactNumber"><br><br>
+        <button type="submit">Edit Attendee</button>
+    </form>
+</body>
+</html>
